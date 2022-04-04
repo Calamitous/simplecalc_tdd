@@ -36,3 +36,6 @@ class SimpleCalculator:
 
     def sqrt(self, square):
         return math.sqrt(square)
+
+    def exp(self, num, exponent):
+        return num ** exponent
