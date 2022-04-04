@@ -42,3 +42,6 @@ class SimpleCalculator:
 
     def exponential(self, exponential):
         return self.exp(10, exponential)
+
+    def factorial(self, num):
+        return math.factorial(num)
