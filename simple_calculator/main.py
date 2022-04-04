@@ -39,3 +39,6 @@ class SimpleCalculator:
 
     def exp(self, num, exponent):
         return num ** exponent
+
+    def exponential(self, exponential):
+        return 10 ** exponential
