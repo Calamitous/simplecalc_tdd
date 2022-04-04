@@ -143,3 +143,8 @@ def test_sqrt_succeeds():
     result = calculator.sqrt(20)
     assert result == 4.47213595499958
 
+def test_exp_succeeds():
+    calculator = SimpleCalculator()
+
+    result = calculator.exp(2.0, 3.0)
+    assert result == 8.0
