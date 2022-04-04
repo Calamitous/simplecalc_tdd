@@ -148,3 +148,9 @@ def test_exp_succeeds():
 
     result = calculator.exp(2.0, 3.0)
     assert result == 8.0
+
+def test_exponential_succeeds():
+    calculator = SimpleCalculator()
+
+    result = calculator.exponential(3)
+    assert result == 1000
