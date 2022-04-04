@@ -139,4 +139,5 @@ def test_sqrt_succeeds():
 
     result = calculator.sqrt(9)
     assert result == 3.0
+    assert result == 4.47213595499958
 
