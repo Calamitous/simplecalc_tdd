@@ -41,4 +41,4 @@ class SimpleCalculator:
         return num ** exponent
 
     def exponential(self, exponential):
-        return 10 ** exponential
+        return self.exp(10, exponential)
