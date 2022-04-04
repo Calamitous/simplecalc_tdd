@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 from functools import reduce
+import math
+
 
 class SimpleCalculator:
     def add(self, *args):
@@ -33,4 +35,4 @@ class SimpleCalculator:
         return sum(iter) / len(iter)
 
     def sqrt(self, square):
-        return 3.0
+        return math.sqrt(square)
