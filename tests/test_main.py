@@ -154,3 +154,9 @@ def test_exponential_succeeds():
 
     result = calculator.exponential(3)
     assert result == 1000
+
+def test_factorial_succeeeds():
+    calculator = SimpleCalculator()
+
+    result = calculator.factorial(5)
+    assert result == 120
